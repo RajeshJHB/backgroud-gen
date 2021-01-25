@@ -8,7 +8,7 @@ img = Image.open('pics/rr.jpeg')
 #filtered_img.show()
 #crooked_img.show()
 #resize_img = filtered_img.resize((300,300))  # must be a tuple
-#box = (100,100,400,400)
+#box = (100,100,300,300)
 #region = img.crop(box)
 #region.save("Cropped.png",'png')
 img.thumbnail((400,200))
